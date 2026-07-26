@@ -5,7 +5,7 @@
     <link>https://github.com/careyourcake/my-research-feed</link>
     <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (26 items); Papers with Code: unavailable (JSONDecodeError); arXiv: ok (44 items)</description>
     <language>en</language>
-    <lastBuildDate>Sun, 26 Jul 2026 04:19:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 04:21:33 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers</title>
