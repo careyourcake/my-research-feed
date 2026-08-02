@@ -5,7 +5,7 @@
     <link>https://github.com/careyourcake/my-research-feed</link>
     <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (17 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (TimeoutError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Aug 2026 02:24:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 02:20:40 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>β-OPSD: Deriving with Policy Optimization, Training with Self-Distillation</title>
