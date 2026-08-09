@@ -3,9 +3,9 @@
   <channel>
     <title>Small RL Paper Radar</title>
     <link>https://github.com/careyourcake/my-research-feed</link>
-    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (21 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
+    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (21 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (TimeoutError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 08 Aug 2026 01:12:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 01:18:26 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>From Economic Agents to Agentic Economies: A Systems Blueprint for Economic World Models</title>
