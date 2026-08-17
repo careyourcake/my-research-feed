@@ -5,7 +5,7 @@
     <link>https://github.com/careyourcake/my-research-feed</link>
     <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (14 items); Papers with Code: unavailable (JSONDecodeError); arXiv: ok (49 items)</description>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Aug 2026 01:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 00:58:04 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark</title>
