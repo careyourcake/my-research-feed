@@ -3,9 +3,9 @@
   <channel>
     <title>Small RL Paper Radar</title>
     <link>https://github.com/careyourcake/my-research-feed</link>
-    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (22 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (TimeoutError)</description>
+    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (22 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2026 05:20:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 03:14:06 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>TTPO: Test-Time Policy Optimization</title>
