@@ -3,9 +3,9 @@
   <channel>
     <title>Small RL Paper Radar</title>
     <link>https://github.com/careyourcake/my-research-feed</link>
-    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (21 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (TimeoutError)</description>
+    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (21 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 02:49:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2026 02:47:23 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>Negative Self-Distillation: Learning to Reason by Avoiding Flaws</title>
