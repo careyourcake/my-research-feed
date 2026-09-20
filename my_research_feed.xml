@@ -5,7 +5,7 @@
     <link>https://github.com/careyourcake/my-research-feed</link>
     <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (22 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Sep 2026 02:50:08 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 03:01:59 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>Don&#x27;t Mask the Environment: Observation Supervision Changes How Agents Explore Under RL</title>
