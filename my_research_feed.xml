@@ -3,10 +3,26 @@
   <channel>
     <title>Small RL Paper Radar</title>
     <link>https://github.com/careyourcake/my-research-feed</link>
-    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (22 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
+    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (23 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 03:01:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 02:59:12 +0000</lastBuildDate>
     <ttl>1440</ttl>
+    <item>
+      <title>CodeMidas: Scaling Agentic Coding RL Environments from Code Itself</title>
+      <link>https://arxiv.org/abs/2609.22068</link>
+      <guid isPermaLink="false">2609.22068</guid>
+      <pubDate>Thu, 17 Sep 2026 20:00:00 +0000</pubDate>
+      <category>Hugging Face Daily Papers</category>
+      <description><![CDATA[<p><strong>Source:</strong> Hugging Face Daily Papers</p><p><strong>Authors:</strong> Bowen Ye, Lei Li, Shicheng Li, Zihao Yue, Linghao Zhang, Hanglong Lv, Yuanxin Liu, Wenhan Ma, Hao Tian, Rang Li, Jinhao Dong, Yikai Zhao, Xiangwei Deng, Hailin Zhang, Liang Zhao, Qi Liu, Lingpeng Kong, Tong Yang, Fuli Luo</p><p>Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns implemented functionality in existing codebases into executable RL environments using source code as its only task-specific input. CodeMidas allocates agentic compute to every stage of environment construction: agents explore implemented functionality to formulate behavioral specifications, construct tests grounded in execution of the original code, and validate and filter candidate tasks through execution checks and repeated solution rollouts. The resulting dataset has 5,545 training tasks from 3,185 open-source codebases spanning 23 programming languages and 15 technical domains. Training MiMo-V2.5 on these tasks with GRPO improves performance on all five diverse benchmarks, covering issue repair (DeepSWE + 11.7%), whole-program construction (ProgramBench +17%), and terminal work (Terminal-Bench v2.1 +8.5%). Ablations show that increasing the number of high-quality training tasks improves performance. Trajectory analysis shows the RL-trained agent demonstrates better behaviors like increasing codebase exploration and more diverse self-verification. These results establish source code as a scalable foundation for constructing RL environments that improve coding agents across diverse software tasks.</p>]]></description>
+    </item>
+    <item>
+      <title>MintAct: A Unified Visual Agent for Digital Environments</title>
+      <link>https://arxiv.org/abs/2609.22083</link>
+      <guid isPermaLink="false">2609.22083</guid>
+      <pubDate>Thu, 17 Sep 2026 20:00:00 +0000</pubDate>
+      <category>Hugging Face Daily Papers</category>
+      <description><![CDATA[<p><strong>Source:</strong> Hugging Face Daily Papers</p><p><strong>Authors:</strong> Mingfei Gao, Rui Tian, Haiming Gang, Bohan Zhai, Le Zhang, Yuanzheng Gong, Di Feng, Ege Özsoy, Kaixin Ma, Vishwesh Kirthivasan, Oğuzhan Fatih Kar, Roman Bachmann, Anders Boesen Lindbo Larsen, Afshin Dehghan</p><p>We present MintAct, a family of vision-language models that unifies UI grounding, multi-step navigation across mobile, desktop, and web, and visual tool use, trained at 2B, 4B, and 8B scales. Through careful design of our environments, data, and training recipes, MintAct models match the performance of per-domain specialists across all of these capabilities. To enable this, we develop a scalable environment and reinforcement learning (RL) infrastructure. On the environment side, we host hundreds of concurrent instances across heterogeneous per-domain backends, serving both trajectory data collection and online RL. To enable efficient and scalable RL training, an asynchronous framework keeps explicit control over the cross-domain training distribution and remains stable under noisy environment feedback and off-policy drift. Experimental results show that MintAct achieves state-of-the-art performance (48.9 on OSWorld-Verified) across a wide range of benchmarks at comparable model sizes.</p>]]></description>
+    </item>
     <item>
       <title>Don&#x27;t Mask the Environment: Observation Supervision Changes How Agents Explore Under RL</title>
       <link>https://arxiv.org/abs/2609.20715</link>
@@ -134,14 +150,6 @@
       <pubDate>Sun, 13 Sep 2026 20:00:00 +0000</pubDate>
       <category>Hugging Face Daily Papers</category>
       <description><![CDATA[<p><strong>Source:</strong> Hugging Face Daily Papers</p><p><strong>Authors:</strong> Yang Chen, Lirong Che, Zhenyu Huang, Wenbo Fu, Chuang Wang, Xu Cao, Daqi Liu, Yuzhe Yang, Jian Su, Lan-Zhe Guo</p><p>Embodied navigation requires agents to interpret visual observations, accumulate spatial knowledge, and execute actions to follow instructions or locate objects. Training-based methods face generalization challenges, while training-free methods exploit multimodal large language models (MLLMs) but often lack mechanisms to reconcile proposed actions with spatial evidence, task progress, and execution failures. We present HarnessVLN, a zero-shot, training-free framework whose Agent Harness coordinates perception, retrieval, grounding, navigation, recovery, and termination through a unified tool interface. The Harness validates planner proposals against spatial evidence, geometric feasibility, and subgoal consistency, incorporating structured tool feedback into subsequent decisions. Hierarchical event memory tracks task progress and execution history, while a persistent Spatiotemporal Graph maintains reusable spatial evidence and failure annotations for verification and recovery. A replaceable Navigation Executor converts validated targets into executable motions, allowing the same Harness protocol to support instruction-following and object-goal navigation. HarnessVLN achieves success rates of 60.8%, 53.9%, 76.0%, and 59.3% on R2R, RxR, HM3D-v2, and HM3D-OVON, respectively, surpassing prior training-free SOTA results. Humanoid deployment further demonstrates its applicability to both tasks in real-world environments. The project page is: https://harnessvln.netlify.app/.</p>]]></description>
-    </item>
-    <item>
-      <title>Not All Prompts Are Equal: Exploration-Guided Prompt Scaffolding for Multimodal Reinforcement Post-Training</title>
-      <link>https://arxiv.org/abs/2609.15051</link>
-      <guid isPermaLink="false">2609.15051</guid>
-      <pubDate>Sun, 13 Sep 2026 20:00:00 +0000</pubDate>
-      <category>Hugging Face Daily Papers</category>
-      <description><![CDATA[<p><strong>Source:</strong> Hugging Face Daily Papers</p><p><strong>Authors:</strong> Yuanhao Yue, Qianli Ma, Chengyu Wang, Haoting Wang, Lei Shen, Jun Huang</p><p>Training prompts in online reinforcement learning (RL) differ substantially in how informative they are for the current policy: some are already saturated while others are too difficult to yield reliable learning signals, yet both receive equal rollout budget under standard training. We propose an exploration-guided prompt scaffolding framework that adapts the training prompt distribution dynamically throughout RL post-training of multimodal large language models (MLLMs). Central to our approach is the Exploration Potential Score (EPS), a lightweight rollout-based proxy for prompt utility derived from KL-regularized policy improvement theory, computable directly from on-policy rollout statistics without additional overhead. Rather than discarding low-utility prompts, we use a teacher model to generate scaffolded rewrites that preserve the original task intent while making subsequent training more informative, reframing teacher supervision as training-data refinement rather than output imitation. Integrated with GRPO on Geo3K and MMK12, our method consistently outperforms the baseline on both in-domain and out-of-distribution benchmarks, achieving up to 9.7\% relative improvement in-domain and gains of 11.5\% on MathVision and 11.1\% on MMMU-Pro.</p>]]></description>
     </item>
     <item>
       <title>AlayaVista: Streaming World Modeling from Panoramic States to Perspective Video</title>
