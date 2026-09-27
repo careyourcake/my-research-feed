@@ -5,7 +5,7 @@
     <link>https://github.com/careyourcake/my-research-feed</link>
     <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (18 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Sep 2026 03:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 03:17:50 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation</title>
