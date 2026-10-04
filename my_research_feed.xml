@@ -5,7 +5,7 @@
     <link>https://github.com/careyourcake/my-research-feed</link>
     <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (28 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Oct 2026 03:29:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 03:58:18 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation</title>
