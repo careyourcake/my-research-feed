@@ -3,9 +3,9 @@
   <channel>
     <title>Small RL Paper Radar</title>
     <link>https://github.com/careyourcake/my-research-feed</link>
-    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (22 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
+    <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (22 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (TimeoutError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 04:00:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 03:35:37 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks</title>
