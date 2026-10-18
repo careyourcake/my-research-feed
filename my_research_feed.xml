@@ -5,7 +5,7 @@
     <link>https://github.com/careyourcake/my-research-feed</link>
     <description>Daily reinforcement learning and robotics papers. Hugging Face: ok (24 items); Papers with Code: unavailable (JSONDecodeError); arXiv: unavailable (HTTPError)</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Oct 2026 02:42:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 02:44:10 +0000</lastBuildDate>
     <ttl>1440</ttl>
     <item>
       <title>Can World and Action Modeling Benefit Each Other under Unified Causal Training?</title>
